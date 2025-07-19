@@ -1,0 +1,32 @@
+{
+    "$schema": "https://json.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.1.8",
+        "axios": "^1.8.2",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.2.0",
+        "tailwindcss": "^4.1.8",
+        "vite": "^6.2.4",
+        "vite-plugin-vue-devtools": "^7.7.6",
+        "vite-svg-loader": "^5.1.0"
+    },
+    "dependencies": {
+        "@formkit/auto-animate": "^0.8.2",
+        "@headlessui/vue": "^1.7.23",
+        "@inertiajs/vue3": "^2.0.17",
+        "@paystack/inline-js": "^2.22.1",
+        "@vitejs/plugin-vue": "^5.2.1",
+        "@vue/server-renderer": "^3.5.17",
+        "currency.js": "^2.0.4",
+        "moment": "^2.29.4",
+        "swiper": "^11.2.10",
+        "tailwind-scrollbar-hide": "^1.1.7",
+        "ziggy-js": "^2.4.2"
+    }
+}
